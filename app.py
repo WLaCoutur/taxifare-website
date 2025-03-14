@@ -1,6 +1,18 @@
 import streamlit as st
 import requests
 
+
+
+########################## PIC ##########################
+st.markdown("""
+    <style>
+    .main {
+        background-image: url("https://cdn.pixabay.com/photo/2015/01/08/00/34/yellow-taxi-592184_1280.jpg", use_column_width=True");
+        background-size: cover;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+########################################################
 st.title("TaxiFare Prediction")
 
 # Champs de saisie pour les paramètres
